@@ -1,0 +1,56 @@
+# =========================
+# Swift Package Manager
+# =========================
+.build/
+.swiftpm/
+Package.resolved
+
+# =========================
+# Xcode
+# =========================
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xcuserdata/
+
+# Xcode playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# Logs & temporary files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# Coverage
+# =========================
+*.profdata
+
+# =========================
+# SwiftLint / SwiftFormat
+# =========================
+.swiftlint.yml
+.swiftlint.cache
+.swiftformat
+
+# =========================
+# Fastlane (если вдруг будет)
+# =========================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# =========================
+# Other
+# =========================
+*.swp
+*.lock
